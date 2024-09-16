@@ -1,3 +1,3 @@
 # My Digital Cloud ☁️
 
-<p>Coming Soon</p>
+<p>Soon</p>
