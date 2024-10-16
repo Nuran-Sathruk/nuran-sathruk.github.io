@@ -1,0 +1,77 @@
+body {
+    background-color: #2D2D2D;
+    color: #D3B58F;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.boot-screen, .homepage {
+    text-align: center;
+}
+
+.progress-bar {
+    width: 70%;
+    height: 20px;
+    border: 2px dashed #FF2828;
+    margin: 20px auto;
+    position: relative;
+}
+
+.progress {
+    height: 100%;
+    background-color: #FF2828;
+    width: 0;
+    animation: loadProgress 5s forwards;
+}
+
+@keyframes loadProgress {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+header {
+    background-color: #1E1E1E;
+    padding: 20px;
+    border-bottom: 2px solid #FF2828;
+}
+
+section {
+    padding: 20px;
+    background-color: #2D2D2D;
+}
+
+footer {
+    padding: 10px;
+    border-top: 2px solid #FF2828;
+    background-color: #1E1E1E;
+}
+
+.up-title {
+    color: #00ff00;
+}
+
+.down-title {
+    color: #FF2828;
+}
+
+.main-title {
+    color: #FFFF1E;
+}
+
+.main-text {
+    color: #1E9E1E;
+}
+
+.color-text {
+    color: #FF2828;
+}
