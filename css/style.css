@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: #2D2D2D;
+    color: #D3B58F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+header {
+    background-color: #1E1E1E;
+    border-bottom: 2px solid #FF2828;
+    padding: 20px;
+}
+
+section {
+    background-color: #2D2D2D;
+    padding: 20px;
+}
+
+.boot-screen, .homepage {
+    text-align: center;
+}
+
+.progress-bar {
+    position: relative;
+    width: 70%;
+    height: 20px;
+    border: 2px dashed #FF2828;
+    margin: 20px auto;
+}
+
+.progress {
+    width: 0;
+    height: 100%;
+    background-color: #FF2828;
+    animation: loadProgress 5s forwards;
+}
+
+@keyframes loadProgress {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.up-title {
+    color: #00FF00;
+}
+
+.main-title {
+    color: #FFFF1E;
+}
+
+.main-text {
+    color: #1E9E1E;
+}
+
+.color-text {
+    color: #FF2828;
+}
+
+.down-title {
+    color: #FF2828;
+}
+
+footer {
+    background-color: #1E1E1E;
+    border-top: 2px solid #FF2828;
+    padding: 10px;
+}
