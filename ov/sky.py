@@ -1,0 +1,1 @@
+print("\n".join(["Dark Sky"] * 70))
